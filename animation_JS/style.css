@@ -1,0 +1,74 @@
+body{
+    background-color: #343434;
+    color: whitesmoke;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+
+#ich{
+    display: flex;
+    justify-content: center;
+}
+#ich #sith{
+    margin-right: 2%;
+    border: solid black;
+}
+#ich #jedi{
+    margin-left: 2%;
+    border: solid black;
+}
+
+
+#dos{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+#dos .o{
+    background-color:#005500;
+    color: whitesmoke;
+}
+#dos .n{
+    background-color: #8b0000;
+    color: whitesmoke;
+}
+
+
+#choix .cache{
+    display: none;
+}
+
+.cache{
+    display: none;
+}
+
+
+
+
+
+
+
+#combat .z_c td.active {
+    background-image: url("img/sabre_lazer.jpg");
+}
+
+
+.z_c{
+    display: flex;
+    justify-content: center;
+}
+.z_c td {
+    height: 10px;
+    width: 10px;
+}
+
+
+.ennemi{
+    background-image: url("img/luke.jpg");
+}
